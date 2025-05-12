@@ -5,7 +5,7 @@
       <input type="text" v-model="val" placeholder="Nhập việc cần làm">
       <button>Thêm</button>
     </form>
-    <ul>
+    <ul v-if="toDo.length > 0">
       <li v-for="(item, index) in toDo" :key="index">
         <div>
           <input type="checkbox">
