@@ -23,6 +23,15 @@ const routes = [
     {
         path: '/customer',
         component: Customer
+    },
+    {
+        path: '/posts',
+        component: PostList
+    },
+    {
+        path: '/posts/:id',
+        component: PostDetail,
+        props: true
     }
 ];
 

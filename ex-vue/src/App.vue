@@ -9,6 +9,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <router-link to="/form" class="mr-4">Form</router-link>
       <router-link to="/fake-api" class="mr-4">Fake API</router-link>
       <router-link to="/customer" class="mr-4">Customer</router-link>
+      <router-link to="/posts" class="mr-4">Posts</router-link>
     </nav>
     <div class="container mx-auto px-4 py-8">
       <router-view />
